@@ -2,3 +2,4 @@ gen/
 bin/
 .DS_*
 .project
+local.properties

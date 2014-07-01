@@ -19,6 +19,25 @@ The jar has been added to the libs folder
 https://github.com/nostra13/Android-Universal-Image-Loader/raw/master/downloads/universal-image-loader-1.9.2-with-sources.jar
 
 
+Building APK
+============
+
+git clone https://github.com/ujwalendu/memorygame.git
+
+There are two ways to build the apk.
+1) Using eclipse
+
+	- Open eclipse and import this as Android project.
+	- Rigth click on the project in project explorer and do run->run as
+	  Android application.
+This will build the apk in the bin directory.
+
+2) Using command line
+	cd /path/to/the/cloned/repo
+	export SDK_ROOT=/path/to/the/android/sdk/
+	$SDK_ROOT/tools/android update project -p .
+	ant clean debug
+This will create bin/MainActivity-debug.apk.
 
 
 
